@@ -1,3 +1,5 @@
+// Minimal zero-dependency HTTP server whose sole route is the /health
+// liveness check used by uptime monitoring. Run with `npm start`.
 const http = require('node:http')
 
 const PORT = process.env.PORT || 3000
