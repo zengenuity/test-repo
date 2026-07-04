@@ -1,0 +1,14 @@
+{
+  "name": "test-repo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal HTTP server exposing a /health liveness endpoint for uptime monitoring.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
